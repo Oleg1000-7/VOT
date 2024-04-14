@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles/reset.css" />
+        <link rel="stylesheet" href="styles/fonts.css" />
+        <link rel="stylesheet" href="styles/index.css" />
+        <link rel="stylesheet" href="styles/media.css"> 
+        <link rel="stylesheet" href="styles/check.css">
+
+    
+        <title>Проверь себя</title>
+      </head>
+
+      <body>
+        <nav class="header-nav">
+            <div class="nav-container">
+              <a href="index.html" class="nav-link">таймлайн</a>
+              <a href="#" class="nav-link">проверь себя</a>
+              <a href="#" class="nav-link">о сайте</a>
+              <a href="#" class="nav-link">контакты</a>
+              <a href="#" class="nav-link nav-burger">☰</a>
+            </div>
+        </nav>
+        <main>
+            <div>
+                <p class="header-test">Проверьте свои знания за период:<br></p>
+            </div>
+            <ul class="test"></ul>
+            <button class="confirm" onclick="check()">Проверить</button>
+        </main>
+        <script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
+        <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/jquery-sortablejs@latest/jquery-sortable.js"></script>
+        <script src="scripts/menu.js"></script>
+        <script src="scripts/check_script.js"></script>
+      </body> 
+</html>
